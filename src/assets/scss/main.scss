@@ -1,0 +1,68 @@
+
+  /*
+      index
+  */
+  
+  .index {
+      .warp {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        .aside {
+          flex: 2;
+          min-width: 220px;
+        }
+        .main {
+          flex: 8;
+          padding: 15px 10px;
+          // overflow: hidden;
+          max-width: 1010px;
+          // border: 1px solid red;
+          .header {
+            margin: 20px 30px;
+            border-bottom: 1px solid #ebebeb;
+            p {
+              border-left: 4px solid #000000;
+              padding-left: 10px;
+            }
+            
+          }
+        }
+        ::-webkit-scrollbar {
+          /*滚动条整体样式*/
+          width: 8px;
+          /*高宽分别对应横竖滚动条的尺寸*/
+          height: 18px;
+        }
+        
+      }
+    }
+  /*
+      Header
+  */
+  
+  /*
+      Footer
+  */
+  
+  /*
+      Pagination
+  */
+  .PageDiv {
+    padding: 10px;
+    text-align: center;
+    .el-input__icon {
+      line-height: normal;
+    }
+  }
+
+/*
+
+*/
+.h_sub_title{
+  color: #8894B3;
+}
+
+/*
+
+*/

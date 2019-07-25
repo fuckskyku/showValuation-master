@@ -1,0 +1,125 @@
+/*
+    Aside
+*/
+.aside {
+  margin-top: 20px;
+  .el-menu-vertical-demo{
+    border: none;
+  }
+  .sub_title {
+    max-width: 220px;
+    p{
+      max-width: 220px;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space: nowrap;
+    }
+  }
+  .vux-badge{
+    position: absolute;
+  }
+  .el-menu-item{
+    text-align: center;
+  }
+  .pop{
+    width: 30px;
+    height: 56px;
+    line-height: 56px;
+    margin-top: -8px;
+    text-align: center; 
+    position: relative;
+    z-index: 0;
+  }
+  .is-opened .el-submenu__title span {
+    color: #000000 !important;
+    
+  }
+
+  .el-menu-item-group__title {
+    padding: 0 !important;
+  }
+
+  .is-active .bd_left {
+    width: 5px;
+    height: 20px;
+    background: #000000;
+    display: inline-block;
+  }
+
+  .el-menu-item.is-active {
+    position: relative;
+    font-weight: 600;
+    background: #E8F0FE !important;
+
+    .bd_left {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      margin-top: -10px;
+    }
+  }
+
+  .is-opened .el-submenu__title {
+    background: #f4f4f4 !important;
+  }
+
+  .el-submenu__title {
+    position: relative;
+
+    .bd_left {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      margin-top: -10px;
+    }
+  }
+
+  .fw600 {
+    font-weight: 600;
+  }
+}
+
+/*
+    index
+*/
+
+// .index {
+//     .warp {
+//       width: 1200px;
+//       margin: 0 auto;
+//       display: flex;
+//       .aside {
+//         flex: 2;
+//       }
+//       .main {
+//         flex: 8;
+//         padding: 15px 10px;
+//         .header {
+//           margin: 20px 30px;
+//           border-bottom: 1px solid #ebebeb;
+//           p {
+//             border-left: 4px solid #14bf6d;
+//             padding-left: 10px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// /*
+//     Header
+// */
+
+// /*
+//     Footer
+// */
+
+// /*
+//     Pagination
+// */
+// .PageDiv {
+//   padding: 10px;
+//   text-align: center;
+//   .el-input__icon {
+//     line-height: normal;
+//   }
+// }

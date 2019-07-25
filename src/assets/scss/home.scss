@@ -1,0 +1,39 @@
+.home{
+    background: #ffffff;
+    padding: 20px 0px;
+    .item{
+        .className{
+            color: #3A4467;
+            font-size: 30px;
+        }
+        .list{
+            width: 1200px;
+            margin-left: -30px;
+            margin-bottom: 30px;
+        }
+        .cell{
+            width: 120px;
+            height: 60px;
+            line-height: 60px;
+            display: inline-block;
+            text-align: center;
+            background:rgba(232,240,254,1);
+            border-radius:30px;
+            color: #000000;
+            font-size: 18px;
+            font-family:MicrosoftYaHei;
+            font-weight:400;
+            margin: 30px;
+            cursor: pointer;
+            .pop{
+                width: 85px;
+                height: 60px;
+                line-height: 60px;
+            }
+        }
+        .cell:first-child{
+            // margin-left: 0;
+        }
+    }
+    
+}

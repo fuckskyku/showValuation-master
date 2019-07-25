@@ -1,0 +1,34 @@
+.h_header{
+    height:60px;
+    background: #FFFFFF;
+    font-size: 26px;
+    color: #FEFFFF;
+    box-shadow: 4px 4px 20px #F0F2FA;
+    position: relative;
+    font-family: '微软雅黑';
+    z-index: 9;
+    .h_body{
+        width: 1200px;
+        margin: 0 auto;
+        line-height: 60px;
+        .h_hd{
+            float: left;
+            color: #3A4467;
+            /* cursor: pointer; */
+            .logo{
+                display: inline-block;
+                width: 34px;
+                height: 34px;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                vertical-align: middle;
+                line-height: 0;
+                position: relative;
+                top: -2px;
+            }
+        }
+    }
+}
